@@ -1,4 +1,4 @@
-# Yoruba Sentiment Analysis (Naive Bayes)
+# Yoruba Sentiment Analysis
 
 ##  Live Demo  
 Explore the web interface: [Try the app live](https://hz2cjqpzvcoasnprapdkyc.streamlit.app/)  
