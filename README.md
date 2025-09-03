@@ -7,12 +7,16 @@ Explore the web interface: [Try the app live](https://hz2cjqpzvcoasnprapdkyc.str
 
 ##  Overview  
 This project develops a sentiment analysis system for **Yoruba text**, automatically classifying inputs into **Positive, Neutral, or Negative** categories.  
-It contributes to **Natural Language Processing (NLP)** for African languages, particularly Yoruba, a low-resource language.  
-Based on the **NaijaSenti** annotated tweets dataset.  
+It contributes to **Natural Language Processing (NLP)** for African languages, particularly Yoruba.  
 
 ---
+# 📂 Dataset  
+This project is based on the **NaijaSenti** dataset, a large-scale collection of annotated Nigerian language tweets for sentiment analysis.  
+For this project, the **Yoruba subset** of NaijaSenti was used, containing tweets labeled as **Positive, Neutral, or Negative**.  
 
-##  What the Project Does  
+- 📌 Dataset Source: [NaijaSenti Yoruba Tweets](https://github.com/hausanlp/NaijaSenti/tree/main/data/annotated_tweets/yor)  
+
+##  Implementation Steps  
 - **Data Preparation**: Cleaned and preprocessed Yoruba text—noise removal, tone-mark normalization, tokenization.  
 - **Modeling**: Trained a **Naive Bayes classifier** to categorize tweets by sentiment.  
 - **Evaluation**: Used **accuracy**, **precision**, **recall**, **F1-score**, and a **confusion matrix** to evaluate classification performance.  
