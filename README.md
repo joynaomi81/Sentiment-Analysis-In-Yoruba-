@@ -17,7 +17,7 @@ For this project, the **Yoruba subset** of NaijaSenti was used, containing tweet
 - 📌 Dataset Source: [NaijaSenti Yoruba Tweets](https://github.com/hausanlp/NaijaSenti/tree/main/data/annotated_tweets/yor)  
 
 ##  Implementation Steps  
-- **Data Preparation**: Cleaned and preprocessed Yoruba text—noise removal, tone-mark normalization, tokenization.  
+- **Data Preparation**: Cleaned and preprocessed Yoruba text noise removal, tone-mark normalization, tokenization.  
 - **Modeling**: Trained a **Naive Bayes classifier** to categorize tweets by sentiment.  
 - **Evaluation**: Used **accuracy**, **precision**, **recall**, **F1-score**, and a **confusion matrix** to evaluate classification performance.  
 - **Deployment**: Created a live **Streamlit app** enabling users to input Yoruba text and instantly receive predicted sentiment.
