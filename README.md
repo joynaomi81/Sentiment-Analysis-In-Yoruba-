@@ -32,7 +32,7 @@ For this project, the **Yoruba subset** of NaijaSenti was used, containing tweet
 ---
 
 ##  Dependencies  
-- Python 3.8+  
+- Python 
 - pandas  
 - numpy  
 - scikit-learn  
